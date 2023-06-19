@@ -1,0 +1,53 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+    
+    background-color: slategray;
+
+
+}
+
+.image{
+        border: 3px solid black
+}
+
+.header{
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        height: 300px;
+
+}
+
+.common{
+        background-image: url(../assets/img/miroir-deau.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid black;
+        position:absolute; 
+        font-family:'Courier New', Courier, monospace;
+        color:rgb(6, 1, 12);
+}
+
+.mainbody{
+     top: 314px;
+     right: 5px;
+     left: 5px;    
+}
+
+.uncommon{
+        background-image: url(../assets/img/carcasonne.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a:visited{
+        color:rgb(251, 255, 255);
+}
+
+.veryuncommon{
+        font-weight: bold;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+}
